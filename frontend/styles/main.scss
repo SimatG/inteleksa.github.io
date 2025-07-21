@@ -1,0 +1,277 @@
+body {
+    background-color: #fff;
+    font-family: "Poppins", sans-serif; ;
+    color: #606176 ;
+    box-sizing: border-box;
+}
+
+
+// Navbar Styling
+
+// .container {
+//     border: 1px solid;
+// }
+
+.bg{
+    background-color: #FFFCF4;
+}
+
+.navbar-brand {
+    img {
+        max-height: 80px;
+    }
+}
+
+        /* Gaya untuk item menu */
+        .navbar-nav .nav-item {
+            margin: 0 10px;
+        }
+        
+        .navbar-nav .nav-link {
+            color: #606176;
+            padding: 8px 0;
+            position: relative;
+            margin: 0;
+            transition: all 0.3s ease;
+        }
+        
+        /* Efek hover */
+        .navbar-nav .nav-link:hover {
+            color: #F48C06;
+        }
+        
+        /* Garis bawah saat hover */
+        .navbar-nav .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #F48C06;
+            transition: width 0.3s ease;
+        }
+        
+        .navbar-nav .nav-link:hover::after {
+            width: 30%;
+        }
+        
+        /* Active state */
+        .navbar-nav .nav-link.active {
+            color: #F48C06;
+            font-weight: 600;
+        }
+        
+        .navbar-nav .nav-link.active::after {
+            width: 30%;
+            background-color: #F48C06;
+        }
+
+
+.btn-navbar-right {
+    margin:0 30px;
+}
+
+.btn-login {
+    padding: 12px 0;
+    background: linear-gradient( 
+        94deg,
+        rgba(255, 148, 76, 1) 0%,
+        rgba(255, 168, 55, 1) 50%,
+        rgba(255, 206, 144, 1) 100%
+);
+    color: #fff;
+}
+
+// Hero Section
+
+header {
+    .hero-section {
+
+        // .hero-banner {
+        //     .img-banner {
+        //         max-height: 400px;
+        //     }
+        // }
+
+        .hero-title {
+            font-family: "Sen";
+            font-weight: 700;
+            color: #2f327d;
+        }
+
+        .hero-desc {
+            color: #1c1f35;
+            font-weight: 400;
+        }
+    }
+}
+
+.highlight {
+    color: #F48C06;
+}
+
+// About Us
+
+.about-us {
+    margin: 150px auto;
+
+    .about-two {
+        margin-top: 200px;
+
+        .about-items {
+
+            .items-title {
+                font-family: "Poppins";
+                font-weight: 500;
+                color: #1C1F35;
+                
+                p {
+                    font-size: 18px;
+                }
+                .icon-list {
+                    padding: 30px 20px;
+                    background-color: #FFDDB1;
+                    border-radius: 5px;
+                    color: #1C1F35;
+                }
+
+            }
+
+            .items-desc {
+                font-weight: 400;
+                font-size: 14px;
+                color: #606176;
+                margin-bottom: 50px;
+            }
+
+        }
+    }
+}
+
+.about-stats {
+    margin-top: -60px;
+
+    .stats-detail {
+        background-color: #fff;
+        border-radius: 10px;
+        width: 40%;
+        border: 1px solid #FFDDB1;
+        padding-top: 10px;
+        padding-left: 25px;
+    }
+}
+
+.section-title {
+    font-family: "Sen";
+    font-weight: bold;
+    font-size: 38px;
+    color: #2f327d;
+}
+
+.section-desc {
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #1C1F35;
+    font-size: 18px;
+}
+
+.cards {
+    .cards-img {
+        width: 70px;
+    }
+}
+
+.card-title {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+    color: #2F327D;
+}
+
+.card-desc {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    color: #666C89;
+}
+
+.cards-pricing {
+    .card-price {
+        font-family: "Sen";
+        font-weight: bold;
+        font-size: 60px;
+        color: #2F327D;
+    }
+
+    hr {
+        color: #606176;
+    }
+
+    .card-features {
+        .check-icon {
+            background-color: #2F327D;
+            color: #fff;
+        }
+
+        p:last-child {
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}
+
+
+.section-testimonials {
+    margin: 150px auto;
+
+    .profile-picture{
+        width: 60px;
+        height: 60px;
+        background-image: url(/frontend/images/profile-pic.png);
+    }
+}
+
+.blog-content {
+    .blog-items {
+        background-color: #FFFCF4;
+        width: 370px;
+    }
+
+    .bg-article {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+.section-footer {
+
+    img {
+        max-height: 60px;
+    }
+
+    h5 {
+        font-family: "Sen";
+        color: #2F327D;
+    }
+
+    a {
+        text-decoration: none;
+        color: #606176;
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    
+}
+
+
+
+
+
